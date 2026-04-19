@@ -1,0 +1,281 @@
+consent_id,customer_id,data_holder,status,scopes,created_at,expires_at,revoked_at,sharing_duration_days
+CONS_000001,CUST_00154,Macquarie Bank,active,bank:accounts.detail:read|common:customer.basic:read|bank:payees:read,2024-11-25T01:42:32.417114,2025-02-23T01:42:32.417114,,90
+CONS_000002,CUST_00016,Bendigo Bank,expired,bank:payees:read|common:customer.basic:read,2025-11-16T14:34:05.886612,2026-11-16T14:34:05.886612,,365
+CONS_000003,CUST_00089,ING Australia,revoked,bank:payees:read|common:customer.basic:read|bank:accounts.basic:read,2025-05-25T17:10:31.258743,2026-05-25T17:10:31.258743,2025-06-18T16:54:10.554781,365
+CONS_000004,CUST_00048,Macquarie Bank,expired,bank:accounts.detail:read|bank:transactions:read,2025-09-17T14:59:02.723082,2026-03-16T14:59:02.723082,,180
+CONS_000005,CUST_00037,Macquarie Bank,revoked,bank:payees:read|bank:accounts.detail:read|common:customer.basic:read|bank:accounts.basic:read,2025-05-07T15:35:58.727906,2025-08-05T15:35:58.727906,2026-04-04T22:19:37.056686,90
+CONS_000006,CUST_00085,ING Australia,active,bank:accounts.basic:read|bank:accounts.detail:read|common:customer.basic:read,2025-05-04T03:45:35.955308,2025-10-31T03:45:35.955308,,180
+CONS_000007,CUST_00173,Bendigo Bank,expired,bank:accounts.detail:read,2025-11-13T22:40:00.661309,2026-02-11T22:40:00.661309,,90
+CONS_000008,CUST_00151,ING Australia,expired,bank:accounts.detail:read|bank:transactions:read|common:customer.basic:read|bank:accounts.basic:read,2024-08-13T15:25:01.506572,2024-11-11T15:25:01.506572,,90
+CONS_000009,CUST_00049,ING Australia,active,bank:accounts.detail:read|common:customer.basic:read|bank:payees:read|bank:accounts.basic:read,2025-05-20T13:13:18.036144,2026-05-20T13:13:18.036144,,365
+CONS_000010,CUST_00199,ANZ,revoked,bank:transactions:read|common:customer.basic:read|bank:accounts.detail:read,2025-02-07T16:04:02.491577,2025-08-06T16:04:02.491577,2025-07-10T01:51:27.444352,180
+CONS_000011,CUST_00128,NAB,active,bank:transactions:read|bank:accounts.detail:read|bank:payees:read|common:customer.basic:read,2026-01-23T19:19:15.865143,2027-01-23T19:19:15.865143,,365
+CONS_000012,CUST_00145,Macquarie Bank,active,bank:accounts.basic:read|bank:transactions:read,2025-08-16T06:34:35.806684,2026-08-16T06:34:35.806684,,365
+CONS_000013,CUST_00150,Bendigo Bank,revoked,bank:accounts.detail:read|bank:transactions:read,2024-12-16T21:23:20.439791,2025-06-14T21:23:20.439791,2025-05-09T10:35:29.224015,180
+CONS_000014,CUST_00146,Macquarie Bank,active,bank:transactions:read|bank:payees:read|common:customer.basic:read,2026-03-13T14:46:34.156347,2026-09-09T14:46:34.156347,,180
+CONS_000015,CUST_00126,NAB,active,bank:accounts.detail:read|common:customer.basic:read|bank:transactions:read,2025-07-14T09:47:41.954399,2026-07-14T09:47:41.954399,,365
+CONS_000016,CUST_00048,Bendigo Bank,active,bank:accounts.basic:read,2025-03-31T18:48:24.224190,2026-03-31T18:48:24.224190,,365
+CONS_000017,CUST_00172,Commonwealth Bank,active,bank:accounts.detail:read|bank:accounts.basic:read,2025-06-02T20:48:47.492728,2025-11-29T20:48:47.492728,,180
+CONS_000018,CUST_00003,Westpac,expired,bank:accounts.basic:read|bank:payees:read|bank:transactions:read,2025-10-20T01:13:54.439394,2026-04-18T01:13:54.439394,,180
+CONS_000019,CUST_00002,Bendigo Bank,expired,bank:accounts.basic:read,2025-08-06T00:52:10.995984,2026-02-02T00:52:10.995984,,180
+CONS_000020,CUST_00071,Bendigo Bank,active,bank:accounts.detail:read|bank:accounts.basic:read|bank:payees:read|bank:transactions:read,2024-07-12T01:43:54.691011,2024-10-10T01:43:54.691011,,90
+CONS_000021,CUST_00159,Bendigo Bank,active,bank:payees:read|bank:accounts.basic:read|bank:accounts.detail:read,2024-12-27T18:57:52.431211,2025-06-25T18:57:52.431211,,180
+CONS_000022,CUST_00118,Bendigo Bank,active,bank:transactions:read|bank:accounts.basic:read,2024-10-11T17:07:48.913006,2025-10-11T17:07:48.913006,,365
+CONS_000023,CUST_00167,Macquarie Bank,active,bank:payees:read|common:customer.basic:read|bank:transactions:read|bank:accounts.detail:read,2025-07-31T21:41:27.797374,2025-10-29T21:41:27.797374,,90
+CONS_000024,CUST_00003,ING Australia,active,bank:payees:read|bank:transactions:read|common:customer.basic:read|bank:accounts.basic:read,2026-02-18T11:46:14.385602,2026-05-19T11:46:14.385602,,90
+CONS_000025,CUST_00011,Westpac,active,bank:transactions:read|bank:accounts.basic:read|bank:payees:read|bank:accounts.detail:read,2024-10-14T06:02:38.212594,2025-10-14T06:02:38.212594,,365
+CONS_000026,CUST_00145,ING Australia,active,bank:accounts.basic:read|bank:accounts.detail:read|bank:transactions:read,2024-05-18T11:23:12.207671,2024-08-16T11:23:12.207671,,90
+CONS_000027,CUST_00183,Macquarie Bank,revoked,bank:accounts.detail:read|common:customer.basic:read|bank:transactions:read,2026-01-25T10:56:52.608748,2026-04-25T10:56:52.608748,2026-02-26T15:32:06.578333,90
+CONS_000028,CUST_00100,ING Australia,expired,bank:accounts.detail:read|bank:accounts.basic:read|bank:transactions:read|common:customer.basic:read,2025-11-21T04:50:15.800828,2026-05-20T04:50:15.800828,,180
+CONS_000029,CUST_00112,Westpac,active,bank:transactions:read|bank:accounts.basic:read|common:customer.basic:read|bank:accounts.detail:read,2024-07-11T02:07:58.994462,2025-01-07T02:07:58.994462,,180
+CONS_000030,CUST_00116,NAB,active,bank:payees:read|bank:accounts.detail:read|bank:transactions:read|common:customer.basic:read,2024-10-23T13:29:57.488696,2025-04-21T13:29:57.488696,,180
+CONS_000031,CUST_00159,ANZ,active,bank:accounts.basic:read,2025-09-29T12:15:08.794975,2026-09-29T12:15:08.794975,,365
+CONS_000032,,ING Australia,active,bank:transactions:read|common:customer.basic:read|bank:accounts.basic:read|bank:payees:read,2024-05-07T09:46:15.805751,2025-05-07T09:46:15.805751,,365
+CONS_000033,CUST_00079,NAB,active,bank:accounts.detail:read,2025-05-01T10:18:31.467817,2025-10-28T10:18:31.467817,,180
+CONS_000034,CUST_00111,NAB,expired,bank:accounts.basic:read|common:customer.basic:read|bank:payees:read|bank:accounts.detail:read,2025-11-02T10:40:47.126701,2026-11-02T10:40:47.126701,,365
+CONS_000035,CUST_00153,Bendigo Bank,active,bank:transactions:read,2025-04-29T13:30:40.286264,2025-10-26T13:30:40.286264,,180
+CONS_000036,CUST_00200,Commonwealth Bank,expired,bank:payees:read|bank:accounts.detail:read,2025-04-25T11:56:00.849145,2025-07-24T11:56:00.849145,,90
+CONS_000037,CUST_00078,ANZ,revoked,bank:accounts.detail:read,2025-04-09T11:58:41.454493,2025-07-08T11:58:41.454493,2025-07-29T18:29:08.038343,90
+CONS_000038,CUST_00108,ANZ,revoked,bank:transactions:read|bank:accounts.detail:read|common:customer.basic:read,2025-08-07T15:52:40.518126,2025-11-05T15:52:40.518126,2025-10-28T09:45:14.716887,90
+CONS_000039,CUST_00153,Bendigo Bank,active,bank:accounts.detail:read,2024-06-18T10:53:58.483025,2024-12-15T10:53:58.483025,,180
+CONS_000040,CUST_00102,ANZ,expired,bank:payees:read|bank:transactions:read|bank:accounts.detail:read,2024-06-28T09:11:38.890941,2024-12-25T09:11:38.890941,,180
+CONS_000041,CUST_00167,Bendigo Bank,active,common:customer.basic:read|bank:accounts.detail:read|bank:payees:read,2026-03-29T04:02:42.438164,2026-09-25T04:02:42.438164,,180
+CONS_000042,CUST_00102,ANZ,active,common:customer.basic:read|bank:accounts.detail:read|bank:payees:read|bank:transactions:read,2025-11-04T12:07:27.927799,2026-11-04T12:07:27.927799,,365
+CONS_000043,CUST_00101,ANZ,active,common:customer.basic:read|bank:accounts.detail:read,2025-05-13T08:20:47.744400,2026-05-13T08:20:47.744400,,365
+CONS_000044,CUST_00141,Commonwealth Bank,revoked,bank:payees:read|bank:transactions:read,2025-07-20T17:16:42.118684,2026-07-20T17:16:42.118684,2025-09-16T07:03:04.946539,365
+CONS_000045,CUST_00018,Macquarie Bank,revoked,bank:accounts.detail:read|bank:transactions:read|bank:accounts.basic:read|common:customer.basic:read,2025-07-22T14:28:20.702481,2026-07-22T14:28:20.702481,2025-09-18T10:18:09.402660,365
+CONS_000046,CUST_00184,NAB,revoked,common:customer.basic:read|bank:payees:read|bank:transactions:read|bank:accounts.detail:read,2025-09-01T08:58:47.819300,2025-11-30T08:58:47.819300,2026-03-12T23:41:28.103267,90
+CONS_000047,CUST_00178,NAB,expired,common:customer.basic:read|bank:accounts.basic:read|bank:payees:read,2024-09-16T08:25:24.232925,2024-12-15T08:25:24.232925,,90
+CONS_000048,CUST_00169,ING Australia,active,common:customer.basic:read,2025-12-14T22:34:08.156131,2026-03-14T22:34:08.156131,,90
+CONS_000049,CUST_00174,ING Australia,revoked,bank:accounts.basic:read|common:customer.basic:read|bank:payees:read|bank:accounts.detail:read,2026-01-20T07:59:38.064819,2026-07-19T07:59:38.064819,2026-03-27T17:01:54.237183,180
+CONS_000050,CUST_00192,Bendigo Bank,expired,bank:payees:read|bank:transactions:read,2025-03-02T21:10:07.805480,2026-03-02T21:10:07.805480,,365
+CONS_000051,CUST_00198,ING Australia,expired,bank:transactions:read|bank:accounts.basic:read,2025-12-06T04:34:41.105725,2026-12-06T04:34:41.105725,,365
+CONS_000052,CUST_00076,NAB,active,bank:transactions:read|common:customer.basic:read,2024-06-10T23:53:09.521042,2024-09-08T23:53:09.521042,,90
+CONS_000053,CUST_00053,Bendigo Bank,revoked,bank:accounts.basic:read|bank:payees:read|bank:transactions:read|bank:accounts.detail:read,2025-09-01T20:09:21.546516,2026-02-28T20:09:21.546516,2025-09-07T07:17:10.780060,180
+CONS_000054,CUST_00077,Commonwealth Bank,active,bank:accounts.basic:read|bank:accounts.detail:read|bank:transactions:read,2025-09-24T07:49:14.939842,2025-12-23T07:49:14.939842,,90
+CONS_000055,CUST_00045,Bendigo Bank,active,bank:payees:read|bank:accounts.detail:read|common:customer.basic:read|bank:accounts.basic:read,2024-05-17T00:31:49.487320,2024-11-13T00:31:49.487320,,180
+CONS_000056,CUST_00169,NAB,revoked,bank:payees:read|common:customer.basic:read,2024-06-11T19:37:34.807695,2024-09-09T19:37:34.807695,2024-10-10T07:50:37.384568,90
+CONS_000057,CUST_00181,Westpac,active,common:customer.basic:read,2024-10-20T03:31:09.715859,2025-04-18T03:31:09.715859,,180
+CONS_000058,CUST_00138,Westpac,active,bank:payees:read|bank:accounts.basic:read,2024-06-09T18:30:04.818945,2024-12-06T18:30:04.818945,,180
+CONS_000059,CUST_00126,Bendigo Bank,active,common:customer.basic:read|bank:payees:read|bank:transactions:read|bank:accounts.basic:read,2025-12-09T17:45:05.951987,2026-12-09T17:45:05.951987,,365
+CONS_000060,CUST_00118,Bendigo Bank,active,common:customer.basic:read|bank:accounts.basic:read|bank:transactions:read,2026-02-12T22:21:02.417704,2027-02-12T22:21:02.417704,,365
+CONS_000061,CUST_00031,Westpac,active,bank:transactions:read|bank:accounts.detail:read,2025-02-10T17:52:26.479814,2025-05-11T17:52:26.479814,,90
+CONS_000062,CUST_00108,Bendigo Bank,active,bank:payees:read|bank:accounts.detail:read|common:customer.basic:read|bank:accounts.basic:read,2025-03-14T11:19:35.689843,2026-03-14T11:19:35.689843,,365
+CONS_000063,CUST_00126,ANZ,active,bank:payees:read|bank:accounts.basic:read|bank:accounts.detail:read,2025-02-08T10:07:00.521186,2025-05-09T10:07:00.521186,,90
+CONS_000064,CUST_00125,Westpac,active,bank:payees:read|common:customer.basic:read|bank:accounts.detail:read|bank:transactions:read,2024-12-06T04:41:19.188684,2025-06-04T04:41:19.188684,,180
+CONS_000065,CUST_00022,Bendigo Bank,active,bank:accounts.basic:read|bank:transactions:read|common:customer.basic:read,2025-01-28T12:26:48.230946,2025-04-28T12:26:48.230946,,90
+CONS_000066,CUST_00044,Macquarie Bank,revoked,common:customer.basic:read|bank:accounts.basic:read|bank:transactions:read|bank:payees:read,2024-07-14T16:28:31.756056,2025-07-14T16:28:31.756056,2024-07-18T11:40:27.646977,365
+CONS_000067,CUST_00140,Macquarie Bank,active,bank:payees:read,2025-09-26T19:39:03.478645,2026-09-26T19:39:03.478645,,365
+CONS_000068,CUST_00109,Commonwealth Bank,active,bank:payees:read,2024-06-04T12:22:06.185918,2024-12-01T12:22:06.185918,,180
+CONS_000069,CUST_00023,NAB,active,common:customer.basic:read|bank:transactions:read,2025-10-15T12:59:15.341908,2026-01-13T12:59:15.341908,,90
+CONS_000070,CUST_00157,ING Australia,revoked,bank:accounts.detail:read|common:customer.basic:read,2024-05-22T14:07:20.020792,2024-08-20T14:07:20.020792,2026-01-04T01:17:42.757026,90
+CONS_000071,CUST_00146,ANZ,expired,bank:transactions:read|common:customer.basic:read,2025-01-05T07:40:38.399283,2025-07-04T07:40:38.399283,,180
+CONS_000072,CUST_00069,Macquarie Bank,expired,bank:accounts.detail:read,2025-04-21T04:39:46.709522,2026-04-21T04:39:46.709522,,365
+CONS_000073,CUST_00106,Commonwealth Bank,active,bank:accounts.detail:read|common:customer.basic:read,2024-11-16T19:33:18.183014,2025-11-16T19:33:18.183014,,365
+CONS_000074,CUST_00083,Macquarie Bank,active,bank:payees:read|bank:accounts.detail:read|bank:transactions:read|common:customer.basic:read,2025-09-01T17:16:09.627195,2026-09-01T17:16:09.627195,,365
+CONS_000075,CUST_00097,NAB,active,bank:payees:read,2025-07-05T20:41:54.945223,2026-07-05T20:41:54.945223,,365
+CONS_000076,CUST_00072,ING Australia,active,bank:transactions:read|bank:accounts.basic:read|common:customer.basic:read|bank:payees:read,2024-11-10T17:54:26.230664,2025-05-09T17:54:26.230664,,180
+CONS_000077,CUST_00118,ING Australia,active,bank:accounts.detail:read|bank:payees:read|bank:accounts.basic:read|common:customer.basic:read,2026-02-24T09:17:38.799423,2026-05-25T09:17:38.799423,,90
+CONS_000078,CUST_00073,ANZ,expired,common:customer.basic:read|bank:payees:read,2025-01-22T14:50:26.820551,2026-01-22T14:50:26.820551,,365
+CONS_000079,,Macquarie Bank,active,bank:payees:read,2025-12-10T02:33:31.816825,2026-03-10T02:33:31.816825,,90
+CONS_000080,CUST_00041,NAB,revoked,bank:accounts.detail:read|common:customer.basic:read|bank:transactions:read|bank:payees:read,2024-05-11T20:48:06.871539,2024-08-09T20:48:06.871539,2024-08-30T13:02:34.239575,90
+CONS_000081,CUST_00071,Commonwealth Bank,active,bank:transactions:read,2024-09-26T18:32:18.908932,2025-03-25T18:32:18.908932,,180
+CONS_000082,CUST_00167,Westpac,active,bank:accounts.detail:read|bank:payees:read|bank:transactions:read,2025-10-16T03:02:38.553130,2026-04-14T03:02:38.553130,,180
+CONS_000083,CUST_00025,Commonwealth Bank,active,bank:accounts.detail:read,2025-11-21T14:42:33.702983,2026-05-20T14:42:33.702983,,180
+CONS_000084,CUST_00133,ING Australia,revoked,bank:transactions:read,2025-12-30T01:18:11.379949,2026-03-30T01:18:11.379949,2026-01-31T17:47:02.829623,90
+CONS_000085,CUST_00109,ING Australia,active,bank:accounts.detail:read,2025-07-25T21:48:08.032598,2026-01-21T21:48:08.032598,,180
+CONS_000086,CUST_00188,Macquarie Bank,active,bank:transactions:read|common:customer.basic:read|bank:accounts.basic:read,2024-11-22T19:27:54.688269,2025-02-20T19:27:54.688269,,90
+CONS_000087,CUST_00193,Macquarie Bank,active,bank:accounts.basic:read|common:customer.basic:read,2026-01-26T10:01:19.766888,2027-01-26T10:01:19.766888,,365
+CONS_000088,CUST_00043,NAB,active,bank:accounts.detail:read|bank:payees:read,2026-03-24T14:23:20.157559,2027-03-24T14:23:20.157559,,365
+CONS_000089,CUST_00114,Macquarie Bank,active,bank:accounts.detail:read,2026-01-11T22:41:16.444428,2026-04-11T22:41:16.444428,,90
+CONS_000090,CUST_00151,ING Australia,revoked,bank:transactions:read|bank:accounts.detail:read|bank:accounts.basic:read|bank:payees:read,2025-08-05T01:04:05.393666,2026-02-01T01:04:05.393666,2026-04-08T21:06:28.308463,180
+CONS_000091,CUST_00064,Bendigo Bank,expired,bank:accounts.basic:read|bank:transactions:read|common:customer.basic:read,2024-04-27T12:26:50.947891,2025-04-27T12:26:50.947891,,365
+CONS_000092,CUST_00131,Westpac,revoked,bank:accounts.detail:read,2026-01-17T12:14:04.130500,2026-07-16T12:14:04.130500,2026-01-30T13:35:33.089818,180
+CONS_000093,CUST_00029,Westpac,revoked,common:customer.basic:read,2024-05-19T20:34:44.731938,2025-05-19T20:34:44.731938,2025-06-24T18:21:07.725766,365
+CONS_000094,CUST_00004,ANZ,active,common:customer.basic:read|bank:payees:read|bank:accounts.detail:read|bank:accounts.basic:read,2025-01-31T20:37:41.734618,2025-05-01T20:37:41.734618,,90
+CONS_000095,CUST_00198,Commonwealth Bank,active,bank:accounts.basic:read,2025-05-23T19:02:51.971099,2026-05-23T19:02:51.971099,,365
+CONS_000096,CUST_00011,Commonwealth Bank,revoked,common:customer.basic:read|bank:payees:read|bank:accounts.detail:read,2024-06-20T11:35:42.529480,2025-06-20T11:35:42.529480,2024-11-07T21:05:13.300897,365
+CONS_000097,CUST_00022,ING Australia,expired,bank:transactions:read|bank:accounts.basic:read,2025-10-12T05:50:38.437545,2026-10-12T05:50:38.437545,,365
+CONS_000098,CUST_00131,Westpac,active,bank:payees:read|bank:accounts.basic:read|bank:accounts.detail:read,2025-09-30T22:35:51.417682,2026-09-30T22:35:51.417682,,365
+CONS_000099,CUST_00187,Macquarie Bank,active,bank:accounts.basic:read|bank:payees:read,2024-09-20T20:13:25.546604,2024-12-19T20:13:25.546604,,90
+CONS_000100,CUST_00157,Bendigo Bank,active,bank:accounts.basic:read|common:customer.basic:read,2026-02-09T00:32:09.073730,2026-08-08T00:32:09.073730,,180
+CONS_000101,CUST_00180,Commonwealth Bank,active,common:customer.basic:read|bank:transactions:read|bank:accounts.basic:read,2025-12-31T12:10:04.328541,2026-06-29T12:10:04.328541,,180
+CONS_000102,CUST_00192,Macquarie Bank,active,bank:accounts.basic:read,2024-08-01T07:16:14.923084,2025-08-01T07:16:14.923084,,365
+CONS_000103,CUST_00110,ANZ,expired,common:customer.basic:read|bank:accounts.basic:read|bank:accounts.detail:read,2024-08-31T14:29:28.586470,2024-11-29T14:29:28.586470,,90
+CONS_000104,CUST_00093,Commonwealth Bank,revoked,bank:transactions:read|bank:accounts.detail:read,2025-07-13T09:21:36.472772,2026-07-13T09:21:36.472772,2025-09-22T06:39:53.063070,365
+CONS_000105,CUST_00027,Bendigo Bank,active,bank:accounts.basic:read,2024-07-11T23:59:29.215221,2024-10-09T23:59:29.215221,,90
+CONS_000106,CUST_00004,Westpac,active,bank:payees:read|bank:accounts.detail:read|bank:accounts.basic:read,2025-08-21T20:23:39.129102,2026-02-17T20:23:39.129102,,180
+CONS_000107,CUST_00010,Bendigo Bank,revoked,bank:accounts.detail:read|bank:payees:read|bank:transactions:read,2025-06-07T05:07:20.348258,2025-09-05T05:07:20.348258,2025-06-24T10:27:12.148842,90
+CONS_000108,CUST_00020,Bendigo Bank,active,bank:accounts.detail:read,2025-10-19T06:06:52.497396,2026-01-17T06:06:52.497396,,90
+CONS_000109,CUST_00133,Commonwealth Bank,revoked,bank:transactions:read|common:customer.basic:read|bank:accounts.detail:read|bank:accounts.basic:read,2026-04-11T15:01:03.975799,2026-07-10T15:01:03.975799,2026-04-16T03:32:45.409385,90
+CONS_000110,CUST_00003,ANZ,active,common:customer.basic:read|bank:accounts.detail:read|bank:payees:read,2025-08-02T15:53:13.001559,2026-01-29T15:53:13.001559,,180
+CONS_000111,CUST_00127,Macquarie Bank,active,bank:accounts.detail:read|bank:accounts.basic:read,2024-06-11T17:48:54.215846,2025-06-11T17:48:54.215846,,365
+CONS_000112,,Westpac,expired,bank:transactions:read,2025-08-22T08:46:40.557325,2026-02-18T08:46:40.557325,,180
+CONS_000113,CUST_00169,NAB,active,common:customer.basic:read|bank:accounts.detail:read,2024-10-19T06:09:12.348450,2025-01-17T06:09:12.348450,,90
+CONS_000114,CUST_00016,Westpac,active,bank:accounts.detail:read,2024-09-10T09:31:38.813282,2024-12-09T09:31:38.813282,,90
+CONS_000115,CUST_00134,NAB,active,common:customer.basic:read,2025-06-16T22:01:30.050277,2025-12-13T22:01:30.050277,,180
+CONS_000116,CUST_00035,ING Australia,revoked,bank:payees:read,2026-03-14T12:20:20.188029,2026-06-12T12:20:20.188029,2026-03-27T11:54:43.729872,90
+CONS_000117,CUST_00034,Westpac,active,bank:payees:read|bank:transactions:read|bank:accounts.detail:read,2025-08-22T01:57:19.957700,2026-02-18T01:57:19.957700,,180
+CONS_000118,CUST_00060,Commonwealth Bank,active,bank:accounts.detail:read,2024-10-07T11:19:24.744274,2025-01-05T11:19:24.744274,,90
+CONS_000119,CUST_00116,NAB,active,common:customer.basic:read,2024-11-13T09:16:45.296980,2025-05-12T09:16:45.296980,,180
+CONS_000120,CUST_00198,Westpac,revoked,bank:transactions:read|bank:accounts.basic:read|bank:payees:read|common:customer.basic:read,2024-06-09T07:24:55.602917,2024-12-06T07:24:55.602917,2024-10-18T19:14:57.038023,180
+CONS_000121,CUST_00078,Macquarie Bank,expired,bank:transactions:read|bank:accounts.detail:read,2025-04-08T19:27:36.742481,2025-07-07T19:27:36.742481,,90
+CONS_000122,CUST_00064,ANZ,revoked,bank:transactions:read,2024-12-14T21:45:37.912863,2025-12-14T21:45:37.912863,2025-11-03T15:43:45.046579,365
+CONS_000123,CUST_00045,Commonwealth Bank,revoked,bank:accounts.basic:read|bank:payees:read,2025-09-07T05:58:01.447379,2026-03-06T05:58:01.447379,2025-10-11T11:29:45.188206,180
+CONS_000124,CUST_00036,Commonwealth Bank,active,bank:accounts.detail:read|common:customer.basic:read,2025-06-06T21:34:51.342408,2025-09-04T21:34:51.342408,,90
+CONS_000125,CUST_00096,ING Australia,active,bank:accounts.basic:read|common:customer.basic:read|bank:payees:read,2025-11-29T14:03:17.220450,2026-11-29T14:03:17.220450,,365
+CONS_000126,CUST_00166,NAB,active,bank:accounts.basic:read|common:customer.basic:read|bank:accounts.detail:read,2026-03-19T16:58:30.895893,2026-06-17T16:58:30.895893,,90
+CONS_000127,CUST_00147,NAB,revoked,bank:payees:read,2024-08-20T09:41:40.595916,2025-02-16T09:41:40.595916,2025-02-26T16:04:18.118793,180
+CONS_000128,,ANZ,active,bank:transactions:read|bank:payees:read|bank:accounts.basic:read,2025-11-13T12:11:42.450619,2026-02-11T12:11:42.450619,,90
+CONS_000129,CUST_00159,Bendigo Bank,active,bank:payees:read|common:customer.basic:read|bank:transactions:read,2025-09-20T22:04:31.669991,2026-09-20T22:04:31.669991,,365
+CONS_000130,CUST_00023,ANZ,revoked,bank:accounts.detail:read|common:customer.basic:read|bank:transactions:read|bank:accounts.basic:read,2025-07-30T20:43:43.074484,2025-10-28T20:43:43.074484,2025-10-11T15:08:20.511763,90
+CONS_000131,CUST_00183,ANZ,revoked,bank:transactions:read|common:customer.basic:read|bank:accounts.detail:read|bank:payees:read,2025-01-06T14:56:35.989260,2026-01-06T14:56:35.989260,2025-11-20T19:56:14.344275,365
+CONS_000132,CUST_00082,Bendigo Bank,active,bank:accounts.basic:read|bank:payees:read|bank:transactions:read,2024-12-17T06:04:47.940923,2025-03-17T06:04:47.940923,,90
+CONS_000133,CUST_00150,Westpac,active,bank:accounts.detail:read|bank:transactions:read,2025-04-04T12:02:19.454337,2025-07-03T12:02:19.454337,,90
+CONS_000134,CUST_00189,Commonwealth Bank,active,bank:transactions:read|bank:accounts.detail:read|bank:accounts.basic:read|common:customer.basic:read,2025-03-10T06:20:55.065732,2026-03-10T06:20:55.065732,,365
+CONS_000135,CUST_00189,ING Australia,active,bank:transactions:read,2025-11-05T13:28:59.067315,2026-11-05T13:28:59.067315,,365
+CONS_000136,,Westpac,expired,common:customer.basic:read|bank:transactions:read|bank:accounts.basic:read|bank:accounts.detail:read,2025-04-09T14:53:46.382777,2025-07-08T14:53:46.382777,,90
+CONS_000137,CUST_00015,Westpac,expired,common:customer.basic:read,2024-07-07T18:37:28.403717,2024-10-05T18:37:28.403717,,90
+CONS_000138,,Bendigo Bank,active,bank:accounts.detail:read|bank:transactions:read|bank:accounts.basic:read,2025-08-03T07:14:33.430185,2025-11-01T07:14:33.430185,,90
+CONS_000139,CUST_00151,ING Australia,active,bank:accounts.basic:read|bank:transactions:read|bank:payees:read,2024-06-18T04:23:27.856247,2024-09-16T04:23:27.856247,,90
+CONS_000140,CUST_00102,Bendigo Bank,active,bank:transactions:read|bank:accounts.detail:read|bank:accounts.basic:read,2024-11-10T02:07:27.031873,2025-05-09T02:07:27.031873,,180
+CONS_000141,CUST_00112,Macquarie Bank,revoked,bank:accounts.detail:read|bank:transactions:read|bank:accounts.basic:read,2025-12-13T06:12:50.896188,2026-12-13T06:12:50.896188,2026-04-05T23:50:51.766190,365
+CONS_000142,,NAB,active,bank:accounts.detail:read|common:customer.basic:read|bank:transactions:read,2024-09-09T16:16:15.353876,2025-09-09T16:16:15.353876,,365
+CONS_000143,CUST_00180,Bendigo Bank,revoked,bank:accounts.detail:read,2025-10-06T11:46:55.393673,2026-10-06T11:46:55.393673,2026-02-05T21:58:51.645563,365
+CONS_000144,CUST_00157,Westpac,expired,bank:accounts.detail:read|bank:transactions:read|bank:payees:read|bank:accounts.basic:read,2025-10-02T00:38:56.993258,2025-12-31T00:38:56.993258,,90
+CONS_000145,CUST_00082,Westpac,active,bank:payees:read|bank:accounts.basic:read|bank:accounts.detail:read,2026-01-30T03:47:03.703516,2027-01-30T03:47:03.703516,,365
+CONS_000146,CUST_00178,Commonwealth Bank,active,bank:accounts.basic:read,2025-12-30T03:24:04.219739,2026-06-28T03:24:04.219739,,180
+CONS_000147,CUST_00113,ING Australia,revoked,bank:payees:read|common:customer.basic:read|bank:accounts.detail:read|bank:transactions:read,2025-07-24T03:26:54.543517,2025-10-22T03:26:54.543517,2026-02-28T07:55:54.472010,90
+CONS_000148,CUST_00123,Macquarie Bank,expired,bank:accounts.detail:read|bank:payees:read,2025-06-15T16:21:07.600284,2026-06-15T16:21:07.600284,,365
+CONS_000149,CUST_00009,ANZ,active,bank:accounts.basic:read|common:customer.basic:read|bank:accounts.detail:read,2025-11-01T12:01:25.848159,2026-04-30T12:01:25.848159,,180
+CONS_000150,CUST_00097,Westpac,active,bank:transactions:read,2024-09-21T14:08:49.086403,2025-09-21T14:08:49.086403,,365
+CONS_000151,CUST_00158,NAB,active,common:customer.basic:read|bank:payees:read,2024-05-16T02:59:45.845732,2024-11-12T02:59:45.845732,,180
+CONS_000152,CUST_00026,ANZ,active,common:customer.basic:read|bank:transactions:read|bank:payees:read|bank:accounts.detail:read,2024-10-26T11:58:49.655809,2025-01-24T11:58:49.655809,,90
+CONS_000153,CUST_00025,Commonwealth Bank,revoked,bank:accounts.detail:read|bank:accounts.basic:read|common:customer.basic:read|bank:payees:read,2026-01-31T12:42:41.863621,2027-01-31T12:42:41.863621,2026-03-14T19:19:40.455891,365
+CONS_000154,CUST_00076,Macquarie Bank,expired,bank:accounts.basic:read|common:customer.basic:read,2025-08-09T09:32:41.375941,2026-02-05T09:32:41.375941,,180
+CONS_000155,CUST_00164,ANZ,active,bank:transactions:read,2024-08-05T19:25:47.759479,2025-02-01T19:25:47.759479,,180
+CONS_000156,CUST_00121,NAB,active,bank:accounts.detail:read|bank:transactions:read|common:customer.basic:read|bank:payees:read,2025-01-30T16:54:27.503563,2025-04-30T16:54:27.503563,,90
+CONS_000157,CUST_00012,ANZ,revoked,bank:accounts.detail:read|bank:transactions:read|bank:payees:read,2026-01-29T16:05:44.251612,2026-07-28T16:05:44.251612,2026-03-17T22:52:34.380078,180
+CONS_000158,CUST_00193,ING Australia,active,common:customer.basic:read|bank:payees:read|bank:transactions:read,2026-01-04T16:03:12.858466,2026-04-04T16:03:12.858466,,90
+CONS_000159,CUST_00016,Macquarie Bank,revoked,common:customer.basic:read|bank:payees:read|bank:transactions:read|bank:accounts.basic:read,2024-07-26T01:09:49.778591,2025-07-26T01:09:49.778591,2025-06-08T04:01:03.264576,365
+CONS_000160,CUST_00021,NAB,active,bank:accounts.basic:read|bank:payees:read,2024-06-24T10:36:41.006620,2025-06-24T10:36:41.006620,,365
+CONS_000161,CUST_00043,Westpac,active,bank:payees:read,2025-01-09T19:37:06.727061,2025-04-09T19:37:06.727061,,90
+CONS_000162,CUST_00175,NAB,active,common:customer.basic:read|bank:transactions:read,2024-04-27T02:40:08.783347,2025-04-27T02:40:08.783347,,365
+CONS_000163,CUST_00187,Macquarie Bank,active,common:customer.basic:read|bank:payees:read|bank:transactions:read|bank:accounts.detail:read,2024-10-10T15:26:43.667072,2025-01-08T15:26:43.667072,,90
+CONS_000164,CUST_00134,NAB,active,bank:accounts.basic:read|bank:payees:read|common:customer.basic:read|bank:transactions:read,2026-03-23T14:29:20.320006,2027-03-23T14:29:20.320006,,365
+CONS_000165,CUST_00150,Macquarie Bank,active,bank:transactions:read,2026-04-05T15:02:58.273718,2026-07-04T15:02:58.273718,,90
+CONS_000166,CUST_00089,NAB,active,common:customer.basic:read|bank:payees:read|bank:accounts.basic:read|bank:transactions:read,2025-08-31T11:12:32.005324,2026-02-27T11:12:32.005324,,180
+CONS_000167,CUST_00037,Bendigo Bank,expired,bank:accounts.basic:read|bank:payees:read|bank:accounts.detail:read|common:customer.basic:read,2025-10-23T18:02:07.572993,2026-10-23T18:02:07.572993,,365
+CONS_000168,CUST_00122,ANZ,active,bank:transactions:read|common:customer.basic:read|bank:accounts.detail:read,2024-07-30T18:46:39.752788,2024-10-28T18:46:39.752788,,90
+CONS_000169,CUST_00179,ING Australia,active,bank:transactions:read|bank:payees:read,2024-08-13T12:49:28.797909,2024-11-11T12:49:28.797909,,90
+CONS_000170,CUST_00083,ANZ,revoked,bank:accounts.detail:read,2025-06-06T12:44:45.463388,2026-06-06T12:44:45.463388,2025-12-03T01:58:45.377867,365
+CONS_000171,CUST_00105,ING Australia,revoked,bank:accounts.basic:read|bank:accounts.detail:read|common:customer.basic:read,2026-01-15T15:12:32.781064,2027-01-15T15:12:32.781064,2026-01-29T09:50:41.239532,365
+CONS_000172,CUST_00130,NAB,active,bank:accounts.detail:read,2025-10-05T08:49:04.732852,2026-10-05T08:49:04.732852,,365
+CONS_000173,CUST_00052,Macquarie Bank,active,bank:payees:read,2026-03-05T11:51:52.623594,2026-06-03T11:51:52.623594,,90
+CONS_000174,CUST_00093,ING Australia,active,bank:payees:read|common:customer.basic:read|bank:transactions:read,2024-05-18T20:53:09.286790,2024-11-14T20:53:09.286790,,180
+CONS_000175,CUST_00175,Commonwealth Bank,active,common:customer.basic:read|bank:payees:read|bank:accounts.basic:read|bank:accounts.detail:read,2025-10-26T20:43:40.383757,2026-04-24T20:43:40.383757,,180
+CONS_000176,,ANZ,active,bank:transactions:read,2024-10-05T10:36:04.112571,2025-04-03T10:36:04.112571,,180
+CONS_000177,CUST_00013,Westpac,expired,bank:accounts.detail:read|common:customer.basic:read,2024-10-29T05:28:20.927157,2025-01-27T05:28:20.927157,,90
+CONS_000178,CUST_00105,Bendigo Bank,active,bank:payees:read,2024-10-07T02:19:17.491036,2025-10-07T02:19:17.491036,,365
+CONS_000179,CUST_00166,Westpac,expired,bank:transactions:read|common:customer.basic:read,2025-08-20T02:30:38.749954,2025-11-18T02:30:38.749954,,90
+CONS_000180,CUST_00182,ING Australia,active,bank:transactions:read|bank:payees:read|bank:accounts.detail:read|bank:accounts.basic:read,2025-05-02T04:07:15.665971,2025-10-29T04:07:15.665971,,180
+CONS_000181,CUST_00174,Bendigo Bank,expired,bank:accounts.basic:read,2025-11-17T17:44:41.218292,2026-05-16T17:44:41.218292,,180
+CONS_000182,CUST_00170,Macquarie Bank,active,bank:transactions:read|bank:accounts.basic:read|bank:accounts.detail:read,2025-01-27T11:46:58.383396,2026-01-27T11:46:58.383396,,365
+CONS_000183,CUST_00071,ING Australia,active,bank:transactions:read|bank:accounts.detail:read|bank:accounts.basic:read,2026-02-17T23:25:17.915391,2026-08-16T23:25:17.915391,,180
+CONS_000184,CUST_00062,Commonwealth Bank,expired,bank:accounts.detail:read|bank:accounts.basic:read|bank:transactions:read,2026-01-22T11:01:26.198290,2026-07-21T11:01:26.198290,,180
+CONS_000185,CUST_00076,ANZ,revoked,bank:accounts.basic:read|bank:accounts.detail:read|bank:payees:read|common:customer.basic:read,2024-05-18T11:52:02.310849,2024-11-14T11:52:02.310849,2025-08-16T08:24:41.538330,180
+CONS_000186,CUST_00164,Macquarie Bank,revoked,common:customer.basic:read|bank:transactions:read|bank:accounts.basic:read,2024-07-03T16:26:56.320027,2025-07-03T16:26:56.320027,2026-03-30T04:31:04.534718,365
+CONS_000187,CUST_00143,Westpac,active,bank:accounts.detail:read|bank:transactions:read|bank:payees:read|bank:accounts.basic:read,2025-07-25T13:25:17.777151,2025-10-23T13:25:17.777151,,90
+CONS_000188,CUST_00086,ING Australia,active,bank:accounts.detail:read|bank:transactions:read|common:customer.basic:read,2024-11-04T21:27:34.927509,2025-02-02T21:27:34.927509,,90
+CONS_000189,CUST_00085,ANZ,active,bank:payees:read|bank:accounts.basic:read|bank:accounts.detail:read,2025-10-12T14:14:02.524641,2026-10-12T14:14:02.524641,,365
+CONS_000190,CUST_00163,Bendigo Bank,expired,bank:payees:read,2025-06-15T11:38:11.110170,2026-06-15T11:38:11.110170,,365
+CONS_000191,CUST_00129,Commonwealth Bank,revoked,bank:payees:read|bank:accounts.basic:read|common:customer.basic:read,2025-06-09T07:19:30.940494,2026-06-09T07:19:30.940494,2025-10-05T18:53:24.194774,365
+CONS_000192,CUST_00052,ANZ,revoked,bank:accounts.detail:read|bank:transactions:read|bank:payees:read|bank:accounts.basic:read,2025-01-20T12:09:19.827874,2026-01-20T12:09:19.827874,2025-10-14T12:33:27.457341,365
+CONS_000193,CUST_00125,ANZ,active,bank:accounts.basic:read,2026-02-03T14:57:19.696069,2026-08-02T14:57:19.696069,,180
+CONS_000194,CUST_00054,Macquarie Bank,active,bank:payees:read|bank:accounts.basic:read,2024-06-15T03:58:33.891728,2025-06-15T03:58:33.891728,,365
+CONS_000195,CUST_00112,ING Australia,revoked,bank:payees:read|common:customer.basic:read|bank:accounts.basic:read|bank:transactions:read,2024-10-19T21:53:20.791592,2025-04-17T21:53:20.791592,2026-04-04T22:03:06.044225,180
+CONS_000196,CUST_00188,ANZ,active,bank:accounts.basic:read|common:customer.basic:read,2024-09-28T23:38:53.364225,2025-03-27T23:38:53.364225,,180
+CONS_000197,CUST_00064,Westpac,active,bank:accounts.basic:read|bank:payees:read,2025-02-09T10:31:31.720814,2025-08-08T10:31:31.720814,,180
+CONS_000198,CUST_00079,Westpac,active,bank:transactions:read|bank:payees:read|common:customer.basic:read,2025-12-06T13:01:26.443424,2026-03-06T13:01:26.443424,,90
+CONS_000199,CUST_00135,ANZ,revoked,bank:transactions:read|bank:payees:read,2024-12-27T01:53:43.067448,2025-12-27T01:53:43.067448,2026-01-10T14:12:39.178642,365
+CONS_000200,CUST_00049,Westpac,revoked,bank:accounts.detail:read|common:customer.basic:read,2026-01-26T13:24:55.960433,2026-04-26T13:24:55.960433,2026-01-27T02:36:22.660622,90
+CONS_000201,CUST_00006,Bendigo Bank,expired,bank:transactions:read,2026-01-22T19:28:01.751911,2026-04-22T19:28:01.751911,,90
+CONS_000202,CUST_00010,NAB,active,common:customer.basic:read,2025-03-06T06:46:13.085247,2026-03-06T06:46:13.085247,,365
+CONS_000203,CUST_00170,Commonwealth Bank,active,bank:payees:read,2024-10-04T03:48:10.569702,2025-01-02T03:48:10.569702,,90
+CONS_000204,CUST_00032,Bendigo Bank,active,bank:accounts.detail:read|bank:accounts.basic:read,2025-04-29T17:34:35.869354,2025-10-26T17:34:35.869354,,180
+CONS_000205,CUST_00170,Commonwealth Bank,expired,bank:payees:read|bank:accounts.basic:read,2024-11-10T05:30:47.101052,2025-05-09T05:30:47.101052,,180
+CONS_000206,CUST_00159,Commonwealth Bank,active,bank:payees:read,2024-08-06T23:34:18.998873,2024-11-04T23:34:18.998873,,90
+CONS_000207,CUST_00052,Macquarie Bank,active,bank:transactions:read|bank:payees:read,2024-08-12T04:10:19.197758,2025-08-12T04:10:19.197758,,365
+CONS_000208,CUST_00011,Bendigo Bank,revoked,bank:transactions:read|bank:accounts.detail:read|bank:accounts.basic:read|common:customer.basic:read,2025-07-02T13:07:01.310332,2025-09-30T13:07:01.310332,2026-02-25T12:58:16.105210,90
+CONS_000209,CUST_00029,Macquarie Bank,expired,bank:accounts.detail:read|bank:accounts.basic:read|bank:transactions:read|bank:payees:read,2025-08-14T15:37:31.063618,2026-08-14T15:37:31.063618,,365
+CONS_000210,CUST_00026,ANZ,active,bank:transactions:read|bank:payees:read|bank:accounts.basic:read,2025-02-15T20:05:32.582675,2025-08-14T20:05:32.582675,,180
+CONS_000211,CUST_00045,Macquarie Bank,active,bank:transactions:read|bank:payees:read|common:customer.basic:read,2024-12-16T06:39:06.055157,2025-06-14T06:39:06.055157,,180
+CONS_000212,CUST_00195,Commonwealth Bank,active,bank:transactions:read|common:customer.basic:read,2024-07-11T01:30:52.251751,2024-10-09T01:30:52.251751,,90
+CONS_000213,CUST_00160,ANZ,active,bank:accounts.detail:read|bank:accounts.basic:read|common:customer.basic:read,2025-08-24T22:49:39.668908,2026-02-20T22:49:39.668908,,180
+CONS_000214,CUST_00117,ANZ,revoked,bank:payees:read|bank:accounts.detail:read|bank:accounts.basic:read|bank:transactions:read,2025-04-03T19:42:27.352900,2026-04-03T19:42:27.352900,2025-11-14T22:31:05.995840,365
+CONS_000215,CUST_00016,Macquarie Bank,active,common:customer.basic:read|bank:payees:read|bank:transactions:read|bank:accounts.detail:read,2025-08-04T13:08:20.352841,2025-11-02T13:08:20.352841,,90
+CONS_000216,CUST_00098,Macquarie Bank,active,bank:accounts.detail:read,2025-02-13T03:03:39.914618,2026-02-13T03:03:39.914618,,365
+CONS_000217,CUST_00125,Commonwealth Bank,revoked,bank:accounts.basic:read,2024-10-14T03:17:52.010103,2025-04-12T03:17:52.010103,2024-12-23T19:45:08.278178,180
+CONS_000218,CUST_00081,Commonwealth Bank,expired,bank:transactions:read|bank:accounts.basic:read,2025-06-25T11:46:24.639243,2026-06-25T11:46:24.639243,,365
+CONS_000219,CUST_00187,Westpac,revoked,bank:accounts.detail:read|bank:accounts.basic:read|bank:payees:read|bank:transactions:read,2024-07-26T15:55:08.273436,2025-01-22T15:55:08.273436,2025-06-15T18:09:51.550604,180
+CONS_000220,CUST_00121,Macquarie Bank,revoked,bank:payees:read,2026-01-29T04:53:34.977113,2026-04-29T04:53:34.977113,2026-02-10T01:12:12.156463,90
+CONS_000221,CUST_00085,ANZ,active,common:customer.basic:read|bank:payees:read,2024-08-18T17:27:35.270865,2025-08-18T17:27:35.270865,,365
+CONS_000222,CUST_00061,Commonwealth Bank,revoked,bank:accounts.basic:read|bank:payees:read|bank:accounts.detail:read|bank:transactions:read,2026-02-21T06:59:31.332954,2026-08-20T06:59:31.332954,2026-03-23T00:52:01.079503,180
+CONS_000223,CUST_00128,ING Australia,active,bank:payees:read|bank:accounts.basic:read|bank:transactions:read|common:customer.basic:read,2025-02-09T03:46:10.450777,2025-05-10T03:46:10.450777,,90
+CONS_000224,CUST_00155,Bendigo Bank,active,bank:payees:read|bank:transactions:read,2026-03-27T10:17:17.653665,2027-03-27T10:17:17.653665,,365
+CONS_000225,CUST_00014,Macquarie Bank,active,common:customer.basic:read|bank:payees:read|bank:transactions:read,2025-07-28T12:25:38.245958,2026-01-24T12:25:38.245958,,180
+CONS_000226,CUST_00184,NAB,active,bank:accounts.basic:read|bank:transactions:read,2026-01-20T05:44:54.921228,2026-04-20T05:44:54.921228,,90
+CONS_000227,CUST_00163,Macquarie Bank,active,bank:accounts.basic:read|common:customer.basic:read|bank:payees:read,2025-10-02T10:15:35.593873,2026-10-02T10:15:35.593873,,365
+CONS_000228,CUST_00184,ING Australia,revoked,common:customer.basic:read|bank:accounts.detail:read|bank:accounts.basic:read,2025-12-09T12:13:08.860898,2026-03-09T12:13:08.860898,2026-04-12T22:28:15.298002,90
+CONS_000229,CUST_00101,Westpac,revoked,bank:accounts.basic:read|bank:payees:read|common:customer.basic:read,2024-09-24T09:14:54.944198,2024-12-23T09:14:54.944198,2025-09-06T14:36:53.825013,90
+CONS_000230,CUST_00173,Bendigo Bank,active,common:customer.basic:read|bank:accounts.detail:read|bank:payees:read|bank:accounts.basic:read,2025-03-29T06:30:55.764687,2025-09-25T06:30:55.764687,,180
+CONS_000231,CUST_00013,Bendigo Bank,revoked,common:customer.basic:read|bank:accounts.detail:read|bank:transactions:read|bank:accounts.basic:read,2025-04-05T18:03:14.867368,2026-04-05T18:03:14.867368,2025-06-27T21:58:46.828259,365
+CONS_000232,CUST_00033,Commonwealth Bank,revoked,common:customer.basic:read|bank:payees:read|bank:accounts.detail:read,2025-02-13T00:44:37.950435,2026-02-13T00:44:37.950435,2025-04-15T12:23:19.441230,365
+CONS_000233,CUST_00178,Macquarie Bank,active,bank:transactions:read|common:customer.basic:read|bank:accounts.detail:read|bank:accounts.basic:read,2025-06-18T09:55:26.066824,2025-12-15T09:55:26.066824,,180
+CONS_000234,CUST_00155,ING Australia,expired,common:customer.basic:read|bank:accounts.detail:read|bank:accounts.basic:read,2025-10-31T06:05:00.589062,2026-04-29T06:05:00.589062,,180
+CONS_000235,CUST_00183,ANZ,active,bank:accounts.detail:read|bank:transactions:read,2025-07-18T00:07:37.139629,2026-07-18T00:07:37.139629,,365
+CONS_000236,CUST_00195,ANZ,expired,common:customer.basic:read|bank:transactions:read|bank:accounts.detail:read|bank:accounts.basic:read,2025-04-27T00:09:43.743355,2025-10-24T00:09:43.743355,,180
+CONS_000237,CUST_00007,NAB,active,bank:accounts.detail:read,2024-08-19T17:37:33.762302,2024-11-17T17:37:33.762302,,90
+CONS_000238,CUST_00042,ANZ,active,bank:transactions:read,2025-09-01T12:14:09.643649,2025-11-30T12:14:09.643649,,90
+CONS_000239,CUST_00139,Commonwealth Bank,active,common:customer.basic:read,2026-02-21T05:19:48.437083,2026-08-20T05:19:48.437083,,180
+CONS_000240,CUST_00190,Bendigo Bank,active,bank:accounts.detail:read|bank:transactions:read|bank:payees:read|bank:accounts.basic:read,2025-06-28T13:03:17.188523,2026-06-28T13:03:17.188523,,365
+CONS_000241,CUST_00100,NAB,active,bank:accounts.basic:read,2024-06-08T14:30:12.228507,2025-06-08T14:30:12.228507,,365
+CONS_000242,CUST_00052,Bendigo Bank,revoked,common:customer.basic:read|bank:accounts.detail:read|bank:transactions:read,2025-01-20T06:46:40.121335,2025-04-20T06:46:40.121335,2025-03-21T09:13:14.741132,90
+CONS_000243,CUST_00076,NAB,active,bank:accounts.detail:read,2024-05-01T11:12:19.901671,2025-05-01T11:12:19.901671,,365
+CONS_000244,CUST_00189,Bendigo Bank,active,bank:payees:read,2025-05-05T16:36:51.451559,2025-11-01T16:36:51.451559,,180
+CONS_000245,CUST_00068,Westpac,active,bank:accounts.basic:read|bank:transactions:read|bank:accounts.detail:read,2026-02-11T17:30:34.686087,2027-02-11T17:30:34.686087,,365
+CONS_000246,CUST_00040,Commonwealth Bank,active,common:customer.basic:read,2025-08-31T14:49:06.571453,2026-02-27T14:49:06.571453,,180
+CONS_000247,CUST_00078,NAB,expired,bank:accounts.basic:read|bank:transactions:read|bank:payees:read,2025-12-13T07:26:55.084156,2026-12-13T07:26:55.084156,,365
+CONS_000248,CUST_00048,Bendigo Bank,active,bank:payees:read|common:customer.basic:read,2025-07-05T02:13:52.519531,2026-07-05T02:13:52.519531,,365
+CONS_000249,CUST_00057,Westpac,active,bank:transactions:read|bank:accounts.detail:read|common:customer.basic:read,2024-08-26T19:27:26.785366,2025-02-22T19:27:26.785366,,180
+CONS_000250,CUST_00144,Macquarie Bank,active,bank:payees:read|bank:accounts.detail:read|bank:transactions:read,2026-02-06T02:09:32.094528,2026-05-07T02:09:32.094528,,90
+CONS_000251,CUST_00160,Westpac,active,bank:payees:read|bank:accounts.basic:read|bank:accounts.detail:read,2025-06-30T22:29:13.361962,2026-06-30T22:29:13.361962,,365
+CONS_000252,CUST_00186,ANZ,active,common:customer.basic:read|bank:payees:read|bank:accounts.detail:read,2026-01-19T16:30:24.697216,2027-01-19T16:30:24.697216,,365
+CONS_000253,CUST_00167,Westpac,active,bank:accounts.basic:read,2025-05-12T01:15:19.732489,2026-05-12T01:15:19.732489,,365
+CONS_000254,CUST_00198,Bendigo Bank,expired,bank:accounts.detail:read,2025-10-20T05:35:53.031925,2026-01-18T05:35:53.031925,,90
+CONS_000255,CUST_00199,Westpac,revoked,common:customer.basic:read|bank:payees:read,2024-06-26T08:45:36.684233,2024-09-24T08:45:36.684233,2025-09-06T05:05:57.193922,90
+CONS_000256,CUST_00019,ING Australia,active,bank:transactions:read|bank:accounts.basic:read|bank:payees:read|common:customer.basic:read,2026-02-06T08:45:04.141714,2026-05-07T08:45:04.141714,,90
+CONS_000257,CUST_00065,Bendigo Bank,active,bank:transactions:read|bank:payees:read,2025-05-17T18:47:42.689045,2026-05-17T18:47:42.689045,,365
+CONS_000258,CUST_00162,NAB,revoked,bank:payees:read,2024-04-20T06:14:51.458010,2024-10-17T06:14:51.458010,2026-03-05T10:27:37.655070,180
+CONS_000259,CUST_00137,Commonwealth Bank,expired,bank:accounts.basic:read,2025-08-27T09:07:35.656321,2025-11-25T09:07:35.656321,,90
+CONS_000260,CUST_00129,Commonwealth Bank,active,common:customer.basic:read|bank:accounts.basic:read|bank:accounts.detail:read,2025-02-28T03:40:27.471759,2026-02-28T03:40:27.471759,,365
+CONS_000261,CUST_00113,NAB,revoked,bank:payees:read,2025-02-20T06:22:08.017823,2026-02-20T06:22:08.017823,2026-02-25T20:10:13.834248,365
+CONS_000262,CUST_00057,Westpac,revoked,bank:accounts.detail:read|bank:transactions:read|bank:payees:read,2025-09-10T07:13:49.435868,2026-09-10T07:13:49.435868,2025-12-14T08:12:56.947993,365
+CONS_000263,,ING Australia,active,bank:accounts.basic:read|common:customer.basic:read,2026-03-04T22:40:13.507776,2026-06-02T22:40:13.507776,,90
+CONS_000264,CUST_00153,NAB,expired,bank:transactions:read,2025-04-06T02:01:15.262222,2026-04-06T02:01:15.262222,,365
+CONS_000265,CUST_00190,ING Australia,active,common:customer.basic:read|bank:accounts.detail:read|bank:accounts.basic:read|bank:transactions:read,2025-11-01T02:46:10.809604,2026-01-30T02:46:10.809604,,90
+CONS_000266,CUST_00065,Westpac,active,common:customer.basic:read,2024-12-31T01:55:57.486380,2025-03-31T01:55:57.486380,,90
+CONS_000267,CUST_00141,Commonwealth Bank,active,bank:transactions:read,2025-11-27T08:09:14.151107,2026-11-27T08:09:14.151107,,365
+CONS_000268,CUST_00186,Bendigo Bank,revoked,bank:accounts.detail:read|common:customer.basic:read|bank:accounts.basic:read,2026-02-10T15:35:32.781145,2026-08-09T15:35:32.781145,2026-04-08T18:12:33.730942,180
+CONS_000269,CUST_00018,Westpac,active,bank:transactions:read|common:customer.basic:read|bank:payees:read|bank:accounts.basic:read,2025-06-13T15:40:54.207406,2025-12-10T15:40:54.207406,,180
+CONS_000270,CUST_00094,Macquarie Bank,active,bank:accounts.basic:read|bank:transactions:read,2025-02-23T18:29:56.850777,2025-08-22T18:29:56.850777,,180
+CONS_000271,CUST_00057,ING Australia,revoked,bank:accounts.detail:read|bank:transactions:read|common:customer.basic:read,2024-10-22T01:12:52.087296,2025-04-20T01:12:52.087296,2025-12-13T07:14:00.330573,180
+CONS_000272,CUST_00092,Macquarie Bank,active,bank:accounts.detail:read,2026-02-12T06:34:21.301332,2026-08-11T06:34:21.301332,,180
+CONS_000273,CUST_00021,Macquarie Bank,active,bank:transactions:read|bank:accounts.basic:read,2024-06-19T12:40:22.710201,2024-09-17T12:40:22.710201,,90
+CONS_000274,CUST_00005,Macquarie Bank,expired,common:customer.basic:read,2025-06-29T19:51:01.011101,2026-06-29T19:51:01.011101,,365
+CONS_000275,CUST_00197,Bendigo Bank,active,common:customer.basic:read|bank:payees:read|bank:transactions:read,2025-05-21T00:37:00.268794,2025-08-19T00:37:00.268794,,90
+CONS_000276,CUST_00094,NAB,active,bank:accounts.detail:read|bank:payees:read|bank:transactions:read,2024-10-24T10:45:38.804600,2025-10-24T10:45:38.804600,,365
+CONS_000277,CUST_00102,ANZ,expired,common:customer.basic:read|bank:accounts.detail:read,2024-04-23T08:59:29.680389,2024-07-22T08:59:29.680389,,90
+CONS_000278,CUST_00036,NAB,active,bank:payees:read|bank:transactions:read,2025-10-13T20:37:35.901693,2026-01-11T20:37:35.901693,,90
+CONS_000279,CUST_00195,NAB,active,bank:transactions:read|bank:accounts.detail:read|bank:accounts.basic:read,2024-04-24T13:47:05.596486,2024-07-23T13:47:05.596486,,90
+CONS_000280,CUST_00133,Macquarie Bank,active,bank:payees:read|bank:accounts.basic:read|common:customer.basic:read|bank:accounts.detail:read,2025-05-05T13:37:31.896571,2025-11-01T13:37:31.896571,,180
