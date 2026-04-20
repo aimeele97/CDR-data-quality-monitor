@@ -102,7 +102,8 @@ sqlite3 src/cdr_monitor.db < src/agg_layer.sql
 jupyter nbconvert --to notebook --execute src/quality_checks.ipynb
 ```
 
-**6. Open dashboard**
+**6. Open dashboard**. 
+
 Connect Tableau to `data/agg/` CSVs or open `src/cdr_monitor.db` directly via SQLite ODBC. Dashboard published on Tableau Public — see link above.
 
 ---
@@ -185,7 +186,7 @@ Active consents grew steadily from February to April. However, both expired and 
 
 ## About
 
-Built as a portfolio project to demonstrate product data analytics capabilities in a regulated open banking context, aligned with the Consumer Data Right (CDR) framework administered by the ACCC and Data Standards Body in Australia.
+Built as a portfolio project to demonstrate data analytics capabilities in a regulated open banking context, aligned with the Consumer Data Right (CDR) framework administered by the ACCC and Data Standards Body in Australia.
 
 ---
 
