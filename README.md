@@ -143,21 +143,22 @@ Connect Tableau to `data/agg/` CSVs or open `src/cdr_monitor.db` directly via SQ
 ---
 
 ## Key Findings
+  
+**1. ANZ has the lowest feed reliability at 46% success rate**
+ANZ consistently underperforms all other data holders at 46%, with a disproportionately high partial-feed rate compared to Bendigo Bank at 67%. This suggests data is being sent but incompletely — pointing to a schema or pagination issue at the source rather than a full outage.
 
-**1. ANZ has the lowest feed reliability at 45.7% success rate**
-ANZ consistently underperforms all other data holders, with a disproportionately high partial-feed rate. This suggests data is being sent but incompletely — pointing to a schema or pagination issue at the source rather than a full outage.
-
-**2. 152 reconciliation breaches detected across all holders**
+**2. 153 reconciliation breaches detected across all holders**
 Over 38% of all feed runs had a gap between records expected and records received exceeding the 5% threshold. The worst single incident was an ANZ accounts feed that delivered only 5,069 of 11,031 expected records — a 54.4% gap. In a production environment, this would directly impact billing accuracy and regulatory reporting.
 
 **3. 31 transactions removed during cleaning — duplicate and orphaned IDs**
 Duplicate transaction IDs, if left uncleaned, would cause double-counting in any financial aggregation or billing calculation. Detection and deduplication is a critical step before any downstream reporting.
 
-**4. Commonwealth Bank has the highest average feed latency**
-Despite being the largest data holder, Commonwealth Bank recorded the highest average latency at 8,000ms peak — above the threshold where downstream data freshness is impacted.
+**4. Bendigo Bank has the highest average feed latency at 4,693ms**
+Despite strong success rates, Bendigo Bank recorded the highest average latency at 4,693ms — above the threshold where downstream data freshness begins to degrade for real-time consent use cases.
 
 **5. Active consent growth is healthy but revocations are rising**
-Active consents grew steadily from February to April. However, both expired and revoked consent counts are also climbing — a signal worth monitoring at the product level, as rising revocations may indicate friction in the customer data-sharing experience.
+Active consents grew from near zero in January to 34 by April, with 5 new consents added last month. However, revoked consent counts are also climbing — a signal worth monitoring at the product level, as rising revocations may indicate friction in the customer data-sharing experience.  
+
 
 ---
 
@@ -191,3 +192,4 @@ Built as a portfolio project to demonstrate product data analytics capabilities 
 ---
 
 *Synthetic data only — no real customer or financial data used.*
+
