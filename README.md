@@ -99,7 +99,7 @@ sqlite3 src/cdr_monitor.db < src/agg_layer.sql
 
 **5. Run data quality checks**
 ```bash
-jupyter nbconvert --to notebook --execute src/quality_checks.ipynb
+jupyter nbconvert --to notebook --execute src/audit_layer.ipynb
 ```
 
 **6. Open dashboard**. 
