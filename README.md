@@ -13,7 +13,7 @@ An end-to-end data quality monitoring pipeline simulating a real-world **Consume
 
 ## Dashboard
 
-![CDR Data Quality Monitor Dashboard](img/d 
+![CDR Data Quality Monitor Dashboard](img/dashboard.png)
 
 **[View on Tableau Public →](https://public.tableau.com/profile/api/publish/Book1_17766011956550/Dashboard2)**
 
