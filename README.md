@@ -1,11 +1,11 @@
 # CDR Data Quality Monitor
 
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.13.9-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-Public-E97627?style=flat&logo=tableau&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Complete-1D9E75?style=flat)
 
-An end-to-end data quality monitoring pipeline simulating a real-world **Consumer Data Right (CDR)** open banking environment. Built to demonstrate product analytics capabilities relevant to regulated data services — including feed health monitoring, automated reconciliation, data validation, and product KPI dashboards.
+An end-to-end data quality monitoring pipeline simulating a real-world **Consumer Data Right (CDR)** open banking environment. Built to demonstrate data analytics capabilities relevant to regulated data services — including feed health monitoring, automated reconciliation, data validation, and product KPI dashboards.
 
 > **Context:** Under Australia's Consumer Data Right legislation, accredited data holders (banks) must share consumer data with third-party fintechs via standardised API feeds. This project monitors the quality and reliability of those feeds across a simulated multi-holder CDR ecosystem.
 
@@ -13,31 +13,31 @@ An end-to-end data quality monitoring pipeline simulating a real-world **Consume
 
 ## Dashboard
 
-![CDR Data Quality Monitor Dashboard](image.png)
+![CDR Data Quality Monitor Dashboard](img/image.png)
 
-**[View on Tableau Public →](https://public.tableau.com/app/profile/tien.le2550/viz/Book1_17766011956550/Dashboard2?publish=yes)**
+**[View on Tableau Public →](https://public.tableau.com/)**
 
 ---
 
 ## Architecture
 
 ```
-data/raw/                  ← synthetic CDR data (5 CSV files)
+data/raw/                      ← synthetic CDR data (5 CSV files)
     │
     ▼
-load_to_db.py              ← loads CSVs into SQLite as raw_* tables
+src/load_to_db.py              ← loads CSVs into SQLite as raw_* tables
     │
     ▼
-clean_layer.sql            ← validates, deduplicates, casts types → clean_* tables
+src/clean_layer.sql            ← validates, deduplicates, casts types → clean_* tables
     │
     ▼
-agg_layer.sql              ← aggregates KPIs → agg_* tables
+src/agg_layer.sql              ← aggregates KPIs → agg_* tables → exported to data/agg/
     │
     ▼
-quality_checks.py          ← automated validation rules → audit_log.csv
+src/quality_checks.py          ← automated validation rules → data/audit_log.csv
     │
     ▼
-Tableau Dashboard          ← 4 charts + 4 KPI cards from agg_* tables
+Tableau Dashboard              ← 4 charts + 4 KPI cards from data/agg/ CSVs
 ```
 
 ---
@@ -53,13 +53,22 @@ cdr-data-quality-monitor/
 │   │   ├── consents.csv
 │   │   ├── transactions.csv
 │   │   └── feed_logs.csv
+│   ├── agg/
+│   │   ├── agg_consent_summary.csv
+│   │   ├── agg_feed_health.csv
+│   │   ├── agg_reconciliation.csv
+│   │   └── agg_transaction_volumes.csv
 │   └── audit_log.csv
-├── generate_cdr_data.py
-├── load_to_db.py
-├── clean_layer.sql
-├── agg_layer.sql
-├── quality_checks.py
-├── cdr_monitor.db
+├── img/
+│   ├── image.png
+├── src/
+│   ├── agg_layer.sql
+│   ├── audit_layer.ipynb   
+│   ├── cdr_monitor.db 
+│   ├── clean_layer.sql
+│   ├── generate_cdr_data.ipynb 
+│   ├── load_to_db.ipynb 
+│   ├── quality_checks.ipynb 
 └── README.md
 ```
 
@@ -74,27 +83,27 @@ pip install pandas faker
 
 **2. Generate synthetic CDR data**
 ```bash
-python generate_cdr_data.py
+jupyter nbconvert --to notebook --execute src/generate_cdr_data.ipynb
 ```
 
 **3. Load raw data into SQLite**
 ```bash
-python load_to_db.py
+jupyter nbconvert --to notebook --execute src/load_to_db.ipynb
 ```
 
 **4. Run SQL transformation layers**
 ```bash
-sqlite3 cdr_monitor.db < clean_layer.sql
-sqlite3 cdr_monitor.db < agg_layer.sql
+sqlite3 src/cdr_monitor.db < src/clean_layer.sql
+sqlite3 src/cdr_monitor.db < src/agg_layer.sql
 ```
 
 **5. Run data quality checks**
 ```bash
-python quality_checks.py
+jupyter nbconvert --to notebook --execute src/quality_checks.ipynb
 ```
 
 **6. Open dashboard**
-Connect Tableau to `cdr_monitor.db` or export `agg_*` tables to CSV and load into Tableau Public.
+Connect Tableau to `data/agg/` CSVs or open `src/cdr_monitor.db` directly via SQLite ODBC. Dashboard published on Tableau Public — see link above.
 
 ---
 
@@ -176,7 +185,7 @@ Active consents grew steadily from February to April. However, both expired and 
 
 ## About
 
-Built as a portfolio project to demonstrate data analytics capabilities in a regulated open banking context, aligned with the Consumer Data Right (CDR) framework administered by the ACCC and Data Standards Body in Australia.
+Built as a portfolio project to demonstrate product data analytics capabilities in a regulated open banking context, aligned with the Consumer Data Right (CDR) framework administered by the ACCC and Data Standards Body in Australia.
 
 ---
 

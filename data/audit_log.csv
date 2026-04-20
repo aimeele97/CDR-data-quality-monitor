@@ -1,0 +1,16 @@
+run_at,check_name,table,status,rows_affected,note
+2026-04-20 16:48:29,null_balance,raw_accounts,FAIL,9,9 accounts had null balance — replaced with 0.00 in clean layer
+2026-04-20 16:48:29,future_open_date,raw_accounts,FAIL,2,2 accounts had future open_date — excluded from clean layer
+2026-04-20 16:48:29,orphaned_accounts,raw_accounts,PASS,0,0 accounts with no matching customer_id
+2026-04-20 16:48:29,null_customer_id,raw_consents,FAIL,9,"9 consents with no customer_id — compliance risk, excluded from clean layer"
+2026-04-20 16:48:29,invalid_consent_status,raw_consents,PASS,0,0 consents with unrecognised status value
+2026-04-20 16:48:29,duplicate_transaction_ids,raw_transactions,FAIL,154,154 duplicate transaction_ids — deduplicated in clean layer
+2026-04-20 16:48:29,invalid_amount,raw_transactions,PASS,0,0 transactions with zero or negative amount — excluded
+2026-04-20 16:48:29,orphaned_transactions,raw_transactions,FAIL,31,31 transactions with no matching account_id — excluded
+2026-04-20 16:48:29,reconciliation_breach,clean_feed_logs,FAIL,161,161 feeds where records received fell >5% below expected
+2026-04-20 16:48:29,stale_feed,clean_feed_logs,WARN,4,4 data holders have not sent a feed in the last 24 hours
+2026-04-20 16:48:29,missing_latency,raw_feed_logs,WARN,4,4 non-failed feeds missing latency_ms — set to -1 sentinel in clean layer
+2026-04-20 16:48:29,row_count_clean_accounts,raw_accounts→clean_accounts,PASS,2,"320 raw → 318 clean (2 dropped, 0.6%)"
+2026-04-20 16:48:29,row_count_clean_transactions,raw_transactions→clean_transactions,PASS,31,"5000 raw → 4969 clean (31 dropped, 0.6%)"
+2026-04-20 16:48:29,row_count_clean_consents,raw_consents→clean_consents,PASS,9,"280 raw → 271 clean (9 dropped, 3.2%)"
+2026-04-20 16:48:29,row_count_clean_feed_logs,raw_feed_logs→clean_feed_logs,PASS,0,"400 raw → 400 clean (0 dropped, 0.0%)"
