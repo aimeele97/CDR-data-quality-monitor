@@ -13,9 +13,9 @@ An end-to-end data quality monitoring pipeline simulating a real-world **Consume
 
 ## Dashboard
 
-![CDR Data Quality Monitor Dashboard](img/image.png)
+![CDR Data Quality Monitor Dashboard](img/dashboard.png)
 
-**[View on Tableau Public →](https://public.tableau.com/app/profile/tien.le2550/viz/Book1_17766011956550/Dashboard2)**
+**[View on Tableau Public →](https://public.tableau.com/profile/api/publish/Book1_17766011956550/Dashboard2)**
 
 ---
 
@@ -186,7 +186,7 @@ Active consents grew steadily from February to April. However, both expired and 
 
 ## About
 
-Built as a portfolio project to demonstrate data analytics capabilities in a regulated open banking context, aligned with the Consumer Data Right (CDR) framework administered by the ACCC and Data Standards Body in Australia.
+Built as a portfolio project to demonstrate product data analytics capabilities in a regulated open banking context, aligned with the Consumer Data Right (CDR) framework administered by the ACCC and Data Standards Body in Australia.
 
 ---
 
