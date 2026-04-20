@@ -60,7 +60,7 @@ cdr-data-quality-monitor/
 │   │   └── agg_transaction_volumes.csv
 │   └── audit_log.csv
 ├── img/
-│   ├── image.png
+│   ├── dashboard.png
 ├── src/
 │   ├── agg_layer.sql
 │   ├── audit_layer.ipynb   
