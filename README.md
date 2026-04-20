@@ -67,7 +67,7 @@ cdr-data-quality-monitor/
 │   ├── cdr_monitor.db 
 │   ├── clean_layer.sql
 │   ├── generate_cdr_data.ipynb 
-│   └──  load_to_db.ipynb 
+│   └── load_to_db.ipynb 
 │   
 └── README.md
 ```
